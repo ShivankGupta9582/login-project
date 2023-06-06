@@ -1,39 +1,27 @@
-import React from 'react'
+import * as React from "react";
+import { createRoot } from "react-dom/client";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
+  RouterProvider,
   Switch,
   Route,
+  Routes,
   Link,
-  BrowserRouter,
-  Routes
 } from "react-router-dom";
-import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Login from './components/Login';
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
-      {/* <switch>
-        <BrowserRouter>
-          <Routes>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/home">
-              <Home />
-            </Route>
-            <Route exact path="/login">
-              <Login />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </switch> */}
-      <h1>This is my home page</h1>
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>}></Route>
+      <Route path="/about" element={<About/>}></Route>
+      <Route path="/login" element={<Login/>}></Route>
+    </Routes>
     </>
   )
 }
-
 export default App

@@ -1,0 +1,29 @@
+.form{
+    box-sizing: 100px;
+    text-align: center;
+
+    padding: 100px;
+    margin-bottom: 5px;
+    font-size: large;
+    word-spacing: 1px;
+    justify-content: space-between;
+    place-items: center;
+
+    margin: auto;
+    background-color: cyan;
+}
+
+.label{
+    color: black;
+    padding: 10px;
+}
+.input{
+    background-color: bisque;
+}
+.active{
+    color: burlywood;
+}
+.input:hover{
+    color:red;
+    background-color: white;
+}
