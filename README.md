@@ -41,6 +41,16 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
+Here we have implememnted the google one tap sign in using google api ayth key
+
+##First Commit
+
+The first commmit has been done on 6june 2023
+
+## Additiuonal changes
+
+We have to add styling to the about and the login page and do the rest of the styling for the login and the about sectipn of the web pages found so far foir the project.
+
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
